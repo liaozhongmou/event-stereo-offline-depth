@@ -1,0 +1,48 @@
+{
+  "params": {
+    "dt_win_min": 0.001,
+    "dt_win_max": 0.3,
+    "expand": 1.5,
+    "target_support": 5,
+    "tau_w": 0.05,
+    "huber_delta": 2.8,
+    "irls_iters": 3,
+    "bins_radius": 4,
+    "sigma_x": 6.0,
+    "alpha_like": 8.5,
+    "beta_conf": 8.2,
+    "gamma_res": 0.08,
+    "cross_eps": 3.0,
+    "min_support": 2,
+    "max_resid": 20.0,
+    "min_score": 0.05,
+    "row_bimed_k": 10,
+    "disp_min": 4,
+    "disp_max": 28
+  },
+  "sequence": 1,
+  "variants": {
+    "consistent_fixed_lif": {},
+    "consistent_fixed50": {
+      "dt_win_min": 0.05,
+      "dt_win_max": 0.05
+    },
+    "consistent_ols": {
+      "irls_iters": 0
+    },
+    "consistent_no_row": {
+      "row_bimed_k": 0
+    }
+  },
+  "same_time": 1,
+  "input_hashes": {
+    "E:\\PythonProject9\\indoor1_data\\indoor1_left1.npz": "49e4650a90b6046f3f06befad9cd2cc7a0c367c840ff0c67f87cbf8d0b8ec020",
+    "E:\\PythonProject9\\indoor1_data\\indoor1_right1.npz": "aca06b985dadd6a57d5b27fef088e36aaad3549a45800138b05e1213fe6ca2a7"
+  },
+  "source": {
+    "src\\stereo_controls.py": "1318f5ee5860d2770102153c941b1691a5a0291f765bf40b8d14e9642027a5ff",
+    "src\\ablate_current3.py": "a37a0ac2c7daeb1770fa8a32c1446a1ec85766ce0f473782825600b070c67077",
+    "src\\run_revision3.py": "e6cce9d3cddb57c03a1db6a0bf252d9b9f6ff56c1ecfaf2645116da538dc6607",
+    "original\\neuron_filter_vis.py": "f25ad3071a2814485f4532fa7f81a212ae3bbadbbc9896c4de031f5d7c690e9c"
+  }
+}

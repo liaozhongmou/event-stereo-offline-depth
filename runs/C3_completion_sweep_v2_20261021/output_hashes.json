@@ -1,0 +1,46 @@
+{
+  "contract.json": {
+    "bytes": 784,
+    "sha256": "450b611111c37c170c91f30f9f816b1d99ea5ef9df507e0e8c150f4a2811ae87"
+  },
+  "default.npz": {
+    "bytes": 15247772,
+    "sha256": "d5d35a194ba9b27197ce4d8c558a5d9aa7cd1cc3beb5262edad377e5848ec9ab"
+  },
+  "local_mean.npz": {
+    "bytes": 95226634,
+    "sha256": "d3859562926759f307ba130e9b4a85905278177e8f65441731fd85bf9631d821"
+  },
+  "metrics.json": {
+    "bytes": 15126,
+    "sha256": "f91d3d7ac1366200d745079503e943efcc5934e752d28f89b6211cf11d9ac570"
+  },
+  "one_pass.npz": {
+    "bytes": 3542417,
+    "sha256": "8827878e314aa739b8c2dee50b8d93a8770bc30a341e9042a431fcd48f210a6e"
+  },
+  "radius12.npz": {
+    "bytes": 9412325,
+    "sha256": "ad346ca39fbb6c1a562f994f1ef00be73ef2fac7ec31e07ec5f56a0b0f52b5a3"
+  },
+  "radius4.npz": {
+    "bytes": 23243465,
+    "sha256": "f8e3b3f20016752569cc067bc47a5aba9e7fafff66456d51df18b708caea3c07"
+  },
+  "stride50.npz": {
+    "bytes": 4088060,
+    "sha256": "57b606dd2eaec525895058bdde2aecde453daa0df01ff817c921b1074351881a"
+  },
+  "threshold10.npz": {
+    "bytes": 75177011,
+    "sha256": "1fcdb966403d14bb5eb10001c1bb5b76c8ba81a38e76d45180c7233fb2d81531"
+  },
+  "threshold30.npz": {
+    "bytes": 2189531,
+    "sha256": "d2e51f92867b7fb123d5ddb1584c212f2fe70458499a198e3b811b30acd92df8"
+  },
+  "window50.npz": {
+    "bytes": 2060122,
+    "sha256": "48a4fc4e9a186f8487915dfff486456b1f832f53e1ee8cbf1936e99312d5dc98"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "interval": [
+    1504645182.4254043,
+    1504645194.4254043
+  ],
+  "cases": {
+    "lif_0": {
+      "k_log": 0.0
+    },
+    "lif_1.2": {
+      "k_log": 1.2
+    },
+    "lif_2.4": {
+      "k_log": 2.4
+    },
+    "lif_3.6": {
+      "k_log": 3.6
+    },
+    "window_0.005": {
+      "k_log": 2.4,
+      "dt": 0.005
+    },
+    "window_0.02": {
+      "k_log": 2.4,
+      "dt": 0.02
+    },
+    "window_0.05": {
+      "k_log": 2.4,
+      "dt": 0.05
+    },
+    "window_0.1": {
+      "k_log": 2.4,
+      "dt": 0.1
+    }
+  },
+  "context": "LIF starts at recording start; +/-0.3 s matcher context; score central fixed12 s",
+  "source": {
+    "src\\sensitivity3.py": "898d1df9bb04559506c8402370a576686e497e0085c8ed7a72666399fc19ab7e",
+    "src\\stereo_controls.py": "1318f5ee5860d2770102153c941b1691a5a0291f765bf40b8d14e9642027a5ff"
+  }
+}

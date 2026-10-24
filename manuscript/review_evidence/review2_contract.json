@@ -1,0 +1,29 @@
+{
+  "status": "B_DIAGNOSTIC_NOT_HISTORICAL_REPLACEMENT",
+  "source_association": "A_historical_v2_20261020",
+  "newly_reached": "S_complete minus S_temporal; location partition, not per-row provenance",
+  "boundary": {
+    "disparity_jump_px": 1.0,
+    "chebyshev_radius_px": 2,
+    "valid_gt_range_px": [
+      4,
+      28
+    ]
+  },
+  "depth_bins_m": [
+    1.0,
+    2.0
+  ],
+  "frame_fractions": [
+    0.1,
+    0.5,
+    0.9
+  ],
+  "temporal_parameters": {
+    "window_size": 20,
+    "deviation_threshold": 2.0,
+    "outlier_tolerance": 3,
+    "trend_degree": 1,
+    "min_samples": 4
+  }
+}

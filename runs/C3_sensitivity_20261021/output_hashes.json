@@ -1,0 +1,42 @@
+{
+  "contract.json": {
+    "bytes": 867,
+    "sha256": "4a3b132f2f7b61bc618582c941411af40105617f9e1805fd1ee5ef1ae3df47de"
+  },
+  "lif_0.npz": {
+    "bytes": 9220680,
+    "sha256": "1980bea49e32cf8062516f077b077cb2b3922c417ea6865fec0e4b782caa8433"
+  },
+  "lif_1.2.npz": {
+    "bytes": 5323107,
+    "sha256": "29d7290a9435e48398e9a5306ffc4cc0282a76445a3b9f8ad7a5e7dfe0f1bf1e"
+  },
+  "lif_2.4.npz": {
+    "bytes": 2479630,
+    "sha256": "7e17074df1bc07ed811e179f49be48dd0ddeacf46a89262808ef183de798ffad"
+  },
+  "lif_3.6.npz": {
+    "bytes": 915433,
+    "sha256": "ac08fbd675c226d0f4c9deab7cfa58d538dafdb239958f0200110ae7cc48d561"
+  },
+  "metrics.json": {
+    "bytes": 3873,
+    "sha256": "d7f9f21e48231b038058e98a926868598e96edf18a2b2a2b9b6018bc25d24143"
+  },
+  "window_0.005.npz": {
+    "bytes": 298807,
+    "sha256": "5b1a7933e3defc29f4e0afed69fe8aca48d5e53092057eaee409e001e2065056"
+  },
+  "window_0.02.npz": {
+    "bytes": 1254324,
+    "sha256": "7447ff9a75228032fd4eb10ed97a656711ff9c5ceaa030a857d9e1fd1e2c336e"
+  },
+  "window_0.05.npz": {
+    "bytes": 1717193,
+    "sha256": "f38d03d79f3c43e10f1e873589edc9dca12c6d2ce39ed64b54194f3da938cf72"
+  },
+  "window_0.1.npz": {
+    "bytes": 1802583,
+    "sha256": "a3363dc6f822b043300a55b9ae8bf0605b0f7e33d5e8cb75b46fa4fe93af6f4e"
+  }
+}

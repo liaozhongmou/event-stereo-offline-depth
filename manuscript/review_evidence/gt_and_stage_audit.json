@@ -1,0 +1,670 @@
+{
+  "calibration": {
+    "path": "../camchain-imucam-indoor_flying.yaml",
+    "sha256": "b5a044cbb4c067f3942a6b6b2d2ae2c98791b90603c4ffa394cba61d546aad71",
+    "raw_fx_px": 226.38018519795807,
+    "rect_fx_px": 199.6530123165822,
+    "rect_fb_px_m": 19.941771812941038,
+    "focal_ratio": 0.881936783212699,
+    "archived_disparity_multiplier": 0.8819476,
+    "effective_archived_coefficient_px_m": 22.611061095677314,
+    "rect_over_archived_coefficient": 0.8819476329995597,
+    "max_sample_disparity_difference_px": 4.66797726517143e-06
+  },
+  "sequences": [
+    {
+      "sequence": 1,
+      "inputs": {
+        "depth": {
+          "path": "../indoor1_data/indoor1_gt_depth.npz",
+          "sha256": "0cab46570af75f7807c20a2edab1c70528d07168d6bc334412edf6b4d39c721d",
+          "shape": [
+            1399,
+            260,
+            346
+          ],
+          "sample_frame_indices": [
+            0,
+            349,
+            699,
+            1048,
+            1398
+          ],
+          "sample_timestamps": [
+            0.0,
+            17.528932901516058,
+            35.10809197180436,
+            52.63702487332042,
+            70.21618394360873
+          ]
+        },
+        "disp": {
+          "path": "../indoor1_data/indoor1_gt_disp.npz",
+          "sha256": "4de1484cfa8664277ec5e1a4537075b701b2b71bad4aefbb8769340f07a2b508",
+          "shape": [
+            1399,
+            260,
+            346
+          ],
+          "sample_frame_indices": [
+            0,
+            349,
+            699,
+            1048,
+            1398
+          ],
+          "sample_timestamps": [
+            1504645177.7113209,
+            1504645195.1664698,
+            1504645212.673889,
+            1504645230.125757,
+            1504645247.621229
+          ]
+        }
+      },
+      "GT_frame_index_samples": [
+        {
+          "frame_index": 0,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 3.728167772293091,
+          "stored_disparity_px": 6.064925670623779,
+          "scaled_disparity_px": 5.348946639385033,
+          "rect_fb_over_stored_depth_px": 5.348946997810513
+        },
+        {
+          "frame_index": 0,
+          "x": 185,
+          "y": 42,
+          "stored_depth_value": 0.5532200336456299,
+          "stored_disparity_px": 40.87173080444336,
+          "scaled_disparity_px": 36.04672489082489,
+          "rect_fb_over_stored_depth_px": 36.0467275227327
+        },
+        {
+          "frame_index": 0,
+          "x": 80,
+          "y": 144,
+          "stored_depth_value": 0.3257134258747101,
+          "stored_disparity_px": 69.42010498046875,
+          "scaled_disparity_px": 61.22489497927246,
+          "rect_fb_over_stored_depth_px": 61.22489964724973
+        },
+        {
+          "frame_index": 349,
+          "x": 0,
+          "y": 26,
+          "stored_depth_value": 2.7515885829925537,
+          "stored_disparity_px": 8.217456817626953,
+          "scaled_disparity_px": 7.247366318409729,
+          "rect_fb_over_stored_depth_px": 7.2473668251860905
+        },
+        {
+          "frame_index": 349,
+          "x": 292,
+          "y": 160,
+          "stored_depth_value": 2.780756950378418,
+          "stored_disparity_px": 8.131260871887207,
+          "scaled_disparity_px": 7.17134601093483,
+          "rect_fb_over_stored_depth_px": 7.17134656814479
+        },
+        {
+          "frame_index": 349,
+          "x": 345,
+          "y": 259,
+          "stored_depth_value": 1.556790828704834,
+          "stored_disparity_px": 14.524147987365723,
+          "scaled_disparity_px": 12.80953745950203,
+          "rect_fb_over_stored_depth_px": 12.809538343395507
+        },
+        {
+          "frame_index": 699,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 2.3641507625579834,
+          "stored_disparity_px": 9.564136505126953,
+          "scaled_disparity_px": 8.435067236769104,
+          "rect_fb_over_stored_depth_px": 8.435067732890383
+        },
+        {
+          "frame_index": 699,
+          "x": 103,
+          "y": 107,
+          "stored_depth_value": 2.5077157020568848,
+          "stored_disparity_px": 9.016596794128418,
+          "scaled_disparity_px": 7.952165902749253,
+          "rect_fb_over_stored_depth_px": 7.952166107419732
+        },
+        {
+          "frame_index": 699,
+          "x": 345,
+          "y": 214,
+          "stored_depth_value": 1.0531286001205444,
+          "stored_disparity_px": 21.470369338989258,
+          "scaled_disparity_px": 18.935740709635162,
+          "rect_fb_over_stored_depth_px": 18.935742330669246
+        },
+        {
+          "frame_index": 1048,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 2.87872052192688,
+          "stored_disparity_px": 7.854552268981934,
+          "scaled_disparity_px": 6.927303522703172,
+          "rect_fb_over_stored_depth_px": 6.927303870260026
+        },
+        {
+          "frame_index": 1048,
+          "x": 54,
+          "y": 151,
+          "stored_depth_value": 2.7896389961242676,
+          "stored_disparity_px": 8.105371475219727,
+          "scaled_disparity_px": 7.148512919678498,
+          "rect_fb_over_stored_depth_px": 7.148513424370237
+        },
+        {
+          "frame_index": 1048,
+          "x": 344,
+          "y": 259,
+          "stored_depth_value": 1.4733716249465942,
+          "stored_disparity_px": 15.346475601196289,
+          "scaled_disparity_px": 13.534787324933625,
+          "rect_fb_over_stored_depth_px": 13.534787473366656
+        },
+        {
+          "frame_index": 1398,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 1.8381009101867676,
+          "stored_disparity_px": 12.301316261291504,
+          "scaled_disparity_px": 10.849116353487016,
+          "rect_fb_over_stored_depth_px": 10.849116989401184
+        },
+        {
+          "frame_index": 1398,
+          "x": 163,
+          "y": 58,
+          "stored_depth_value": 0.5609082579612732,
+          "stored_disparity_px": 40.31151580810547,
+          "scaled_disparity_px": 35.55264461932068,
+          "rect_fb_over_stored_depth_px": 35.55264435831836
+        },
+        {
+          "frame_index": 1398,
+          "x": 23,
+          "y": 176,
+          "stored_depth_value": 0.326569139957428,
+          "stored_disparity_px": 69.23820495605469,
+          "scaled_disparity_px": 61.06446868930054,
+          "rect_fb_over_stored_depth_px": 61.064471111816246
+        }
+      ],
+      "rowwise_depth_times_archived_disparity_quantiles": [
+        22.611059752715164,
+        22.611060225574647,
+        22.611061095430728,
+        22.61106196142032,
+        22.611062439628313
+      ],
+      "rowwise_pairing_status": "Same array indices only; physical frame correspondence is not established by these files.",
+      "stored_stage_rows": {
+        "raw": 518969,
+        "smooth": 518969,
+        "complete": 7205866
+      },
+      "stage_pairing": {
+        "raw_rows": 518969,
+        "smooth_rows": 518969,
+        "raw_time_range": [
+          1504645177.5235844,
+          1504645247.7067623
+        ],
+        "smooth_time_range": [
+          1504645177.5235844,
+          1504645247.7067623
+        ],
+        "same_coordinates_and_time": {
+          "x_L": true,
+          "y_L": true,
+          "t": true
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "inputs": {
+        "depth": {
+          "path": "../indoor2_data/indoor2_gt_depth.npz",
+          "sha256": "ec245c4b0bddf7a64fbaabc3ec9d7a443323eaedca220154699abef7c9614762",
+          "shape": [
+            1691,
+            260,
+            346
+          ],
+          "sample_frame_indices": [
+            0,
+            422,
+            845,
+            1267,
+            1690
+          ],
+          "sample_timestamps": [
+            0.0,
+            21.176992933542895,
+            42.404168314795605,
+            63.5811612483385,
+            84.80833662959121
+          ]
+        },
+        "disp": {
+          "path": "../indoor2_data/indoor2_gt_disp.npz",
+          "sha256": "bed9890b3412c86918ae67ca56bb00bd9f6fca7862ee5b5289b03660df1d02c0",
+          "shape": [
+            1691,
+            260,
+            346
+          ],
+          "sample_frame_indices": [
+            0,
+            422,
+            845,
+            1267,
+            1690
+          ],
+          "sample_timestamps": [
+            1504645268.012208,
+            1504645289.1179059,
+            1504645310.2666738,
+            1504645331.369336,
+            1504645352.518833
+          ]
+        }
+      },
+      "GT_frame_index_samples": [
+        {
+          "frame_index": 0,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 2.1842613220214844,
+          "stored_disparity_px": 10.351811408996582,
+          "scaled_disparity_px": 9.129755227817155,
+          "rect_fb_over_stored_depth_px": 9.129755497609315
+        },
+        {
+          "frame_index": 0,
+          "x": 345,
+          "y": 46,
+          "stored_depth_value": 0.5100516080856323,
+          "stored_disparity_px": 44.330928802490234,
+          "scaled_disparity_px": 39.09755626312714,
+          "rect_fb_over_stored_depth_px": 39.097556986023704
+        },
+        {
+          "frame_index": 0,
+          "x": 30,
+          "y": 114,
+          "stored_depth_value": 0.5145567655563354,
+          "stored_disparity_px": 43.94279479980469,
+          "scaled_disparity_px": 38.75524241098023,
+          "rect_fb_over_stored_depth_px": 38.75524169112833
+        },
+        {
+          "frame_index": 422,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 1.0504323244094849,
+          "stored_disparity_px": 21.525480270385742,
+          "scaled_disparity_px": 18.98434566331406,
+          "rect_fb_over_stored_depth_px": 18.984347063150008
+        },
+        {
+          "frame_index": 422,
+          "x": 150,
+          "y": 132,
+          "stored_depth_value": 2.064899444580078,
+          "stored_disparity_px": 10.950199127197266,
+          "scaled_disparity_px": 9.657501839753724,
+          "rect_fb_over_stored_depth_px": 9.657502628171047
+        },
+        {
+          "frame_index": 422,
+          "x": 345,
+          "y": 259,
+          "stored_depth_value": 0.8647892475128174,
+          "stored_disparity_px": 26.146326065063477,
+          "scaled_disparity_px": 23.05968952190018,
+          "rect_fb_over_stored_depth_px": 23.05968982650362
+        },
+        {
+          "frame_index": 845,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 3.943786382675171,
+          "stored_disparity_px": 5.733338356018066,
+          "scaled_disparity_px": 5.0565040030780795,
+          "rect_fb_over_stored_depth_px": 5.056504049140214
+        },
+        {
+          "frame_index": 845,
+          "x": 64,
+          "y": 129,
+          "stored_depth_value": 1.8048371076583862,
+          "stored_disparity_px": 12.528034210205078,
+          "scaled_disparity_px": 11.049069704408264,
+          "rect_fb_over_stored_depth_px": 11.04907015060971
+        },
+        {
+          "frame_index": 845,
+          "x": 345,
+          "y": 259,
+          "stored_depth_value": 0.7867997884750366,
+          "stored_disparity_px": 28.73801040649414,
+          "scaled_disparity_px": 25.34541930678253,
+          "rect_fb_over_stored_depth_px": 25.345420912722762
+        },
+        {
+          "frame_index": 1267,
+          "x": 254,
+          "y": 0,
+          "stored_depth_value": 4.3056488037109375,
+          "stored_disparity_px": 5.251487731933594,
+          "scaled_disparity_px": 4.631537001608277,
+          "rect_fb_over_stored_depth_px": 4.631537016152756
+        },
+        {
+          "frame_index": 1267,
+          "x": 329,
+          "y": 142,
+          "stored_depth_value": 2.8818342685699463,
+          "stored_disparity_px": 7.846065998077393,
+          "scaled_disparity_px": 6.919819076445961,
+          "rect_fb_over_stored_depth_px": 6.919819099394897
+        },
+        {
+          "frame_index": 1267,
+          "x": 345,
+          "y": 259,
+          "stored_depth_value": 1.8836698532104492,
+          "stored_disparity_px": 12.003727912902832,
+          "scaled_disparity_px": 10.586659023837662,
+          "rect_fb_over_stored_depth_px": 10.586659747701066
+        },
+        {
+          "frame_index": 1690,
+          "x": 236,
+          "y": 0,
+          "stored_depth_value": 4.147716045379639,
+          "stored_disparity_px": 5.451448917388916,
+          "scaled_disparity_px": 4.807892289213753,
+          "rect_fb_over_stored_depth_px": 4.807892245939843
+        },
+        {
+          "frame_index": 1690,
+          "x": 290,
+          "y": 62,
+          "stored_depth_value": 0.6141743659973145,
+          "stored_disparity_px": 36.81537628173828,
+          "scaled_disparity_px": 32.469232754776,
+          "rect_fb_over_stored_depth_px": 32.46923498762278
+        },
+        {
+          "frame_index": 1690,
+          "x": 17,
+          "y": 174,
+          "stored_depth_value": 0.3450632393360138,
+          "stored_disparity_px": 65.52729797363281,
+          "scaled_disparity_px": 57.791643182330326,
+          "rect_fb_over_stored_depth_px": 57.79164379061036
+        }
+      ],
+      "rowwise_depth_times_archived_disparity_quantiles": [
+        22.61105975163491,
+        22.61106016459871,
+        22.611061095677314,
+        22.611062031893812,
+        22.611062441058493
+      ],
+      "rowwise_pairing_status": "Same array indices only; physical frame correspondence is not established by these files.",
+      "stored_stage_rows": {
+        "raw": 1692183,
+        "smooth": 2273612,
+        "complete": 50329622
+      },
+      "stage_pairing": {
+        "raw_rows": 1692183,
+        "smooth_rows": 2273612,
+        "raw_time_range": [
+          1504645267.9279382,
+          1504645352.6499844
+        ],
+        "smooth_time_range": [
+          1504645267.8763113,
+          1504645352.6499844
+        ],
+        "same_coordinates_and_time": {
+          "x_L": false,
+          "y_L": false,
+          "t": false
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "inputs": {
+        "depth": {
+          "path": "../indoor3_data/indoor3_gt_depth.npz",
+          "sha256": "023909a650da1ed5d5920126428060ffbd19f09be05d9e83de54f147e7b6199d",
+          "shape": [
+            1874,
+            260,
+            346
+          ],
+          "sample_frame_indices": [
+            0,
+            468,
+            936,
+            1404,
+            1873
+          ],
+          "sample_timestamps": [
+            0.0,
+            23.444908478471234,
+            46.88981695694247,
+            70.3347254354137,
+            93.82972987217227
+          ]
+        },
+        "disp": {
+          "path": "../indoor3_data/indoor3_gt_disp.npz",
+          "sha256": "6a2e786f4869d3ba6a7f767e29cda2690cad06df17ead722729747c8f3e28058",
+          "shape": [
+            1874,
+            260,
+            346
+          ],
+          "sample_frame_indices": [
+            0,
+            468,
+            936,
+            1404,
+            1873
+          ],
+          "sample_timestamps": [
+            1504645443.356814,
+            1504645466.768837,
+            1504645490.1689668,
+            1504645513.571126,
+            1504645537.0160358
+          ]
+        }
+      },
+      "GT_frame_index_samples": [
+        {
+          "frame_index": 0,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 4.441775321960449,
+          "stored_disparity_px": 5.090545654296875,
+          "scaled_disparity_px": 4.489594522497559,
+          "rect_fb_over_stored_depth_px": 4.489594895614714
+        },
+        {
+          "frame_index": 0,
+          "x": 138,
+          "y": 39,
+          "stored_depth_value": 0.5152892470359802,
+          "stored_disparity_px": 43.88032913208008,
+          "scaled_disparity_px": 38.70015096524811,
+          "rect_fb_over_stored_depth_px": 38.70015127940094
+        },
+        {
+          "frame_index": 0,
+          "x": 23,
+          "y": 110,
+          "stored_depth_value": 0.5733547806739807,
+          "stored_disparity_px": 39.43642044067383,
+          "scaled_disparity_px": 34.78085636024323,
+          "rect_fb_over_stored_depth_px": 34.78085905117842
+        },
+        {
+          "frame_index": 468,
+          "x": 241,
+          "y": 0,
+          "stored_depth_value": 5.022813320159912,
+          "stored_disparity_px": 4.501672744750977,
+          "scaled_disparity_px": 3.9702394732185367,
+          "rect_fb_over_stored_depth_px": 3.9702394936521648
+        },
+        {
+          "frame_index": 468,
+          "x": 244,
+          "y": 144,
+          "stored_depth_value": 1.6562072038650513,
+          "stored_disparity_px": 13.652314186096191,
+          "scaled_disparity_px": 12.04062573087349,
+          "rect_fb_over_stored_depth_px": 12.040626176726802
+        },
+        {
+          "frame_index": 468,
+          "x": 345,
+          "y": 259,
+          "stored_depth_value": 1.4933797121047974,
+          "stored_disparity_px": 15.140865325927734,
+          "scaled_disparity_px": 13.353449836125185,
+          "rect_fb_over_stored_depth_px": 13.35345033235702
+        },
+        {
+          "frame_index": 936,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 3.3721489906311035,
+          "stored_disparity_px": 6.705237865447998,
+          "scaled_disparity_px": 5.913668442860986,
+          "rect_fb_over_stored_depth_px": 5.913668663023368
+        },
+        {
+          "frame_index": 936,
+          "x": 223,
+          "y": 101,
+          "stored_depth_value": 2.339587926864624,
+          "stored_disparity_px": 9.664548873901367,
+          "scaled_disparity_px": 8.523625684420013,
+          "rect_fb_over_stored_depth_px": 8.523625713723789
+        },
+        {
+          "frame_index": 936,
+          "x": 5,
+          "y": 236,
+          "stored_depth_value": 0.9724097847938538,
+          "stored_disparity_px": 23.252605438232422,
+          "scaled_disparity_px": 20.507579559996035,
+          "rect_fb_over_stored_depth_px": 20.507580368669984
+        },
+        {
+          "frame_index": 1404,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 3.187049150466919,
+          "stored_disparity_px": 7.094669818878174,
+          "scaled_disparity_px": 6.2571270195520405,
+          "rect_fb_over_stored_depth_px": 6.257127164172999
+        },
+        {
+          "frame_index": 1404,
+          "x": 271,
+          "y": 127,
+          "stored_depth_value": 2.7415390014648438,
+          "stored_disparity_px": 8.247579574584961,
+          "scaled_disparity_px": 7.273933011614227,
+          "rect_fb_over_stored_depth_px": 7.273933291587631
+        },
+        {
+          "frame_index": 1404,
+          "x": 345,
+          "y": 259,
+          "stored_depth_value": 1.1389739513397217,
+          "stored_disparity_px": 19.85213279724121,
+          "scaled_disparity_px": 17.508540875408173,
+          "rect_fb_over_stored_depth_px": 17.5085407260495
+        },
+        {
+          "frame_index": 1873,
+          "x": 0,
+          "y": 0,
+          "stored_depth_value": 2.9865245819091797,
+          "stored_disparity_px": 7.571028232574463,
+          "scaled_disparity_px": 6.67725017925129,
+          "rect_fb_over_stored_depth_px": 6.677250183620778
+        },
+        {
+          "frame_index": 1873,
+          "x": 136,
+          "y": 68,
+          "stored_depth_value": 0.5170453786849976,
+          "stored_disparity_px": 43.73128890991211,
+          "scaled_disparity_px": 38.568705299003604,
+          "rect_fb_over_stored_depth_px": 38.56870718709252
+        },
+        {
+          "frame_index": 1873,
+          "x": 1,
+          "y": 189,
+          "stored_depth_value": 0.3278883993625641,
+          "stored_disparity_px": 68.95962524414062,
+          "scaled_disparity_px": 60.81877598096924,
+          "rect_fb_over_stored_depth_px": 60.81877813216055
+        }
+      ],
+      "rowwise_depth_times_archived_disparity_quantiles": [
+        22.611059755066208,
+        22.61106019568865,
+        22.61106109589491,
+        22.61106200145923,
+        22.611062436370503
+      ],
+      "rowwise_pairing_status": "Same array indices only; physical frame correspondence is not established by these files.",
+      "stored_stage_rows": {
+        "raw": 1819485,
+        "smooth": 1819485,
+        "complete": 41762091
+      },
+      "stage_pairing": {
+        "raw_rows": 1819485,
+        "smooth_rows": 1819485,
+        "raw_time_range": [
+          1504645443.2835643,
+          1504645537.1025412
+        ],
+        "smooth_time_range": [
+          1504645443.2835643,
+          1504645537.1025412
+        ],
+        "same_coordinates_and_time": {
+          "x_L": true,
+          "y_L": true,
+          "t": true
+        }
+      }
+    }
+  ]
+}

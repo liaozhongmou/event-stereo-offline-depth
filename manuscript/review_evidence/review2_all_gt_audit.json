@@ -1,0 +1,100 @@
+{
+  "scope": "All same-index stored arrays; physical time alignment is not inferred",
+  "coefficient_px_m": 19.941771812941038,
+  "disparity_multiplier": 0.8819476,
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.4.6",
+  "script_sha256": "0a6cb38b4dab721b197aa6e95d6c4a19dac18e4d7b01cc0a4ffdf7ed22141b19",
+  "sequences": [
+    {
+      "sequence": 1,
+      "shape": [
+        1399,
+        260,
+        346
+      ],
+      "array_frames": 1399,
+      "frames_with_positive_pairs": 1399,
+      "positive_value_pairs": 99519474,
+      "evaluated_range_pairs": 91962488,
+      "product_range_px_m": [
+        22.611059749053766,
+        22.61106244357393
+      ],
+      "max_conversion_difference_px": 8.668301816783242e-06,
+      "max_evaluated_range_difference_px": 2.217801466031233e-06,
+      "depth_time_range": [
+        0.0,
+        70.21618394360873
+      ],
+      "disparity_time_range": [
+        1504645177.7113209,
+        1504645247.621229
+      ],
+      "input_sha256": {
+        "depth": "0cab46570af75f7807c20a2edab1c70528d07168d6bc334412edf6b4d39c721d",
+        "disp": "4de1484cfa8664277ec5e1a4537075b701b2b71bad4aefbb8769340f07a2b508"
+      }
+    },
+    {
+      "sequence": 2,
+      "shape": [
+        1691,
+        260,
+        346
+      ],
+      "array_frames": 1691,
+      "frames_with_positive_pairs": 1691,
+      "positive_value_pairs": 125883411,
+      "evaluated_range_pairs": 110897550,
+      "product_range_px_m": [
+        22.611059749053766,
+        22.61106244357393
+      ],
+      "max_conversion_difference_px": 1.4958622728045157e-05,
+      "max_evaluated_range_difference_px": 2.216824256606742e-06,
+      "depth_time_range": [
+        0.0,
+        84.80833662959121
+      ],
+      "disparity_time_range": [
+        1504645268.012208,
+        1504645352.518833
+      ],
+      "input_sha256": {
+        "depth": "ec245c4b0bddf7a64fbaabc3ec9d7a443323eaedca220154699abef7c9614762",
+        "disp": "bed9890b3412c86918ae67ca56bb00bd9f6fca7862ee5b5289b03660df1d02c0"
+      }
+    },
+    {
+      "sequence": 3,
+      "shape": [
+        1874,
+        260,
+        346
+      ],
+      "array_frames": 1874,
+      "frames_with_positive_pairs": 1874,
+      "positive_value_pairs": 129429754,
+      "evaluated_range_pairs": 112467802,
+      "product_range_px_m": [
+        22.611059749053766,
+        22.61106244357393
+      ],
+      "max_conversion_difference_px": 1.7490337171466308e-05,
+      "max_evaluated_range_difference_px": 2.216824256606742e-06,
+      "depth_time_range": [
+        0.0,
+        93.82972987217227
+      ],
+      "disparity_time_range": [
+        1504645443.356814,
+        1504645537.0160358
+      ],
+      "input_sha256": {
+        "depth": "023909a650da1ed5d5920126428060ffbd19f09be05d9e83de54f147e7b6199d",
+        "disp": "6a2e786f4869d3ba6a7f767e29cda2690cad06df17ead722729747c8f3e28058"
+      }
+    }
+  ]
+}

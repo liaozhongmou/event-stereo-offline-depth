@@ -1,0 +1,38 @@
+{
+  "interval": [
+    1504645182.5235844,
+    1504645194.5235844
+  ],
+  "changes": {
+    "default": {},
+    "radius4": {
+      "radius": 4,
+      "average_radius": 5
+    },
+    "radius12": {
+      "radius": 12,
+      "average_radius": 13
+    },
+    "threshold10": {
+      "threshold": 0.1
+    },
+    "threshold30": {
+      "threshold": 0.3
+    },
+    "one_pass": {
+      "iterations": 1
+    },
+    "window50": {
+      "dt": 0.05
+    },
+    "stride50": {
+      "stride": 0.05
+    },
+    "local_mean": {
+      "threshold": 0.0,
+      "iterations": 1
+    }
+  },
+  "prediction_sha256": "e312145638ee6fe963da1e6f78f037870b1346377412340af4a53ecb61e7a273",
+  "comparison": "one completion parameter at a time; fixed timeline clip chosen without errors"
+}

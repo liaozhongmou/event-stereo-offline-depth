@@ -1,0 +1,17 @@
+{
+  "mode": "matcher",
+  "seconds": 17.818721600000572,
+  "peak_rss_mib": 677.48828125,
+  "rss_samples": 570,
+  "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+  "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+  "rows": 566963,
+  "thread_settings": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMBA_NUM_THREADS": "1"
+  },
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "output_sha256": "e312145638ee6fe963da1e6f78f037870b1346377412340af4a53ecb61e7a273"
+}

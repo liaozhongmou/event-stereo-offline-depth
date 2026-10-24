@@ -1,0 +1,73 @@
+{
+  "sequence": 1,
+  "params": {
+    "dt_win_min": 0.001,
+    "dt_win_max": 0.3,
+    "expand": 1.5,
+    "target_support": 5,
+    "tau_w": 0.05,
+    "huber_delta": 2.8,
+    "irls_iters": 3,
+    "bins_radius": 4,
+    "sigma_x": 6.0,
+    "alpha_like": 8.5,
+    "beta_conf": 8.2,
+    "gamma_res": 0.08,
+    "cross_eps": 3.0,
+    "min_support": 2,
+    "max_resid": 20.0,
+    "min_score": 0.05,
+    "row_bimed_k": 10,
+    "disp_min": 4,
+    "disp_max": 28
+  },
+  "variants": {
+    "full": {},
+    "fixed_lif": {},
+    "fixed50": {
+      "dt_win_min": 0.05,
+      "dt_win_max": 0.05
+    },
+    "ols": {
+      "irls_iters": 0
+    },
+    "no_row": {
+      "row_bimed_k": 0
+    },
+    "no_lr": {
+      "cross_eps": 1000000000.0
+    }
+  },
+  "status": "NEW_UNIFIED_RUN_NOT_HISTORICAL_REPRODUCTION",
+  "temporal_default": "bypass",
+  "score_scan": [
+    0.05,
+    2.0,
+    5.0,
+    10.0,
+    20.0
+  ],
+  "matched_count_fractions": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "interval": "full intersection of raw left/right events; 0.3 s boundary margin",
+  "association_ms": 15,
+  "gt_range_px": [
+    4,
+    28
+  ],
+  "completion": "centered sum, median pixel merge",
+  "fixed_parameter_external": "DSEC thun_00_a; no retuning",
+  "git": "f5848cfa8cc84c3b99796d8b48e3d99922f06ad3",
+  "source_hashes": {
+    "src\\revision3.py": "1030605926fff281791e0563f6226acb0630e3d6cee17644afc31245d9226a6e",
+    "src\\run_revision3.py": "d0a29a217ef882a211a78cb5a5795a0ca0b939750a31002010a3ca4a88c069cf",
+    "original\\Event_SNN_Stereo.py": "07c7bbc1b1d30fb704bc6fbea6ff534163f4a1a003f29af8dec554932d2a68e5",
+    "original\\neuron_filter_vis.py": "f25ad3071a2814485f4532fa7f81a212ae3bbadbbc9896c4de031f5d7c690e9c",
+    "src\\evaluation.py": "fd78cfda23bc3c3444d1fb80237c055c4fd4b13ef515c5ece6d6fee1de729689"
+  }
+}

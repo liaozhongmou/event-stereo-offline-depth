@@ -1,0 +1,37 @@
+{
+  "params": {
+    "dt_win_min": 0.001,
+    "dt_win_max": 0.3,
+    "expand": 1.5,
+    "target_support": 5,
+    "tau_w": 0.05,
+    "huber_delta": 2.8,
+    "irls_iters": 3,
+    "bins_radius": 4,
+    "sigma_x": 6.0,
+    "alpha_like": 8.5,
+    "beta_conf": 8.2,
+    "gamma_res": 0.08,
+    "cross_eps": 3.0,
+    "min_support": 2,
+    "max_resid": 20.0,
+    "min_score": 0.05,
+    "row_bimed_k": 10,
+    "disp_min": 4,
+    "disp_max": 28
+  },
+  "geometry": [
+    480,
+    640
+  ],
+  "default": "bounded matching with same_time=1; temporal bypass; centered completion",
+  "timestamp": "(events/t + t_offset) * 1e-6; official clock",
+  "rectification": "official rectify_map[y,x], nearest integer, discard outside field",
+  "gt": "not loaded in inference; external test uses parameters frozen on MVSEC",
+  "source": {
+    "src\\stereo_controls.py": "1318f5ee5860d2770102153c941b1691a5a0291f765bf40b8d14e9642027a5ff",
+    "src\\run_revision3.py": "e6cce9d3cddb57c03a1db6a0bf252d9b9f6ff56c1ecfaf2645116da538dc6607",
+    "src\\revision3.py": "1030605926fff281791e0563f6226acb0630e3d6cee17644afc31245d9226a6e",
+    "src\\dsec_revision3.py": "20c2243565fc8c5330128049abc0058becd3e86346d37e011c62676e316acafd"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "consistent_fixed_lif": {
+    "rows": 4782708,
+    "seconds": 104.25750479999988
+  },
+  "consistent_fixed50": {
+    "rows": 1208105,
+    "seconds": 44.16818170000079
+  },
+  "consistent_ols": {
+    "rows": 1844214,
+    "seconds": 33.78657860000021
+  },
+  "consistent_no_row": {
+    "rows": 2072783,
+    "seconds": 38.5250716999999
+  }
+}

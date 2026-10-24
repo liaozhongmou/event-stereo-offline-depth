@@ -1,0 +1,94 @@
+{
+  "completed.npz": {
+    "bytes": 49798752,
+    "sha256": "f65143815bc7cb6caa793db2b77bb51f10d05769318c7de0b7195cdea25efb08"
+  },
+  "completed_associated.npz": {
+    "bytes": 13072312,
+    "sha256": "4e67fc4ed9124924c3e8e836319e77d2695ccbf36c6c586a316fc7f473f346e4"
+  },
+  "contract.json": {
+    "bytes": 1875,
+    "sha256": "30bca2256532e33dc78842bdc38397169f5acb77ab793e7df3deabf67a7fa37c"
+  },
+  "fixed50.npz": {
+    "bytes": 5807657,
+    "sha256": "fbba0b3bf9a5f972f747ce8751fc502e2555696eadaeb66892d7937c819de080"
+  },
+  "fixed50_associated.npz": {
+    "bytes": 1919424,
+    "sha256": "993e739b254de26297a2cfccaad5b4137cbb915786aeb83d7a3162a320cc557c"
+  },
+  "fixed_lif.npz": {
+    "bytes": 33372126,
+    "sha256": "fa1edb15e56fbf53b2e073b91ee897f8e526e9dc92f8adc8d222369813c61480"
+  },
+  "fixed_lif_associated.npz": {
+    "bytes": 12633817,
+    "sha256": "c0a5e1b881117524d9a2c74a7b39c8213e4bcbbf25a6ccb7e310e6a19ec1ac39"
+  },
+  "full.npz": {
+    "bytes": 8419065,
+    "sha256": "d76415175efd8c637a968cd932c4dad021a5fa3c7941cecbea62d886cf10abf4"
+  },
+  "full_associated.npz": {
+    "bytes": 2780861,
+    "sha256": "b042a064d457d9c10f17f3e847bce1cdacedff9a2833ddb42152083684cfcce0"
+  },
+  "inference.json": {
+    "bytes": 1953,
+    "sha256": "a7d060395b1e89e94e47affe855e9df9c4972e00e0716b507670ed53070b4a87"
+  },
+  "median.npz": {
+    "bytes": 4382475,
+    "sha256": "8273a2caf431ebdc53593bafe3d6294a86350e1625daf74b4fe1d18d72f4e5f1"
+  },
+  "median_associated.npz": {
+    "bytes": 2772894,
+    "sha256": "a243cd2331924af8f0bce27a21a0a9deb50d40ec4053eb172a1d7a0d87918c2c"
+  },
+  "metrics.json": {
+    "bytes": 45723,
+    "sha256": "12682d5c12f6b1555f083e4dbcbe844fe6f76979046f51575c50644a706029ec"
+  },
+  "nearest5.npz": {
+    "bytes": 4918582,
+    "sha256": "41a1ae6966174c2fde0d7ec92fde58ee2628b30ff3047bbe224ee7448bdbf081"
+  },
+  "nearest50.npz": {
+    "bytes": 12730228,
+    "sha256": "91a54af91046ae22ce9bf950399a4c2f3de6f992bfd62e18510753fc71c8aec7"
+  },
+  "nearest50_associated.npz": {
+    "bytes": 5974464,
+    "sha256": "19ffed0d72609b42d575fc85730bed7e1999cacecf6741b82616aedbdee536ee"
+  },
+  "nearest5_associated.npz": {
+    "bytes": 2384638,
+    "sha256": "9f2554c50ed8078e8f4c66efef72fb906dab70aab9c56ad7fe472b2a67fbd8a0"
+  },
+  "no_lr.npz": {
+    "bytes": 16542193,
+    "sha256": "f930790764c3246573779818c14c729425cb2c77d55e103de8b0840ef4db4455"
+  },
+  "no_lr_associated.npz": {
+    "bytes": 5308780,
+    "sha256": "a58a90733f81886a669036f50c562c3a21ecce6c9dcbbc62c29f032c89f00dff"
+  },
+  "no_row.npz": {
+    "bytes": 8288269,
+    "sha256": "ed5c8d520f90f1551621748765b33a29c49b73ee33869987d625aaed518f0756"
+  },
+  "no_row_associated.npz": {
+    "bytes": 2726557,
+    "sha256": "d690969a084a8aee41aef6ff288dfe92f41376edffc905dadcb1ff0bcc7178f9"
+  },
+  "ols.npz": {
+    "bytes": 7662602,
+    "sha256": "8addf17ffeb05d63ca18e1673379240e52022114b2ec29b3da39b47683e75414"
+  },
+  "ols_associated.npz": {
+    "bytes": 2535060,
+    "sha256": "26fa225b5bfe02e9353dca236b36581fbe066deddf007c4046edf82ca290325f"
+  }
+}

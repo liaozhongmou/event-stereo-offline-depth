@@ -1,0 +1,79 @@
+{
+  "interval": [
+    1504645443.3855953,
+    1504645536.8124182
+  ],
+  "shape": [
+    260,
+    346
+  ],
+  "input_hashes": {
+    "E:\\PythonProject9\\indoor3_data\\indoor3_left1.npz": "f26218e224d9c37f52efb4fecbfd80fac05d7cce20e1da5212098d6b378f3218",
+    "E:\\PythonProject9\\indoor3_data\\indoor3_right1.npz": "4f50fa9959e6aaf2fcb575cb2c1ce0d90a5e766a2733ce0e812ee8f80646ab69"
+  },
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.5.4",
+  "numba": "0.68.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "load_seconds": 2.903213499999765,
+  "variants": {
+    "full": {
+      "seconds": 39.613200400000096,
+      "rows": 1828418,
+      "process_rss_mib": 1100.28515625
+    },
+    "fixed_lif": {
+      "seconds": 100.59910010000021,
+      "rows": 4194178,
+      "process_rss_mib": 1716.28125
+    },
+    "fixed50": {
+      "seconds": 42.91264169999977,
+      "rows": 1148125,
+      "process_rss_mib": 1135.3515625
+    },
+    "ols": {
+      "seconds": 32.994413200000054,
+      "rows": 1625549,
+      "process_rss_mib": 1150.61328125
+    },
+    "no_row": {
+      "seconds": 37.28060310000001,
+      "rows": 1828418,
+      "process_rss_mib": 1156.8984375
+    },
+    "no_lr": {
+      "seconds": 41.82164540000031,
+      "rows": 4098417,
+      "process_rss_mib": 1226.32421875
+    },
+    "nearest50": {
+      "seconds": 10.934313599999768,
+      "rows": 5939619
+    },
+    "nearest5": {
+      "seconds": 6.534834000000046,
+      "rows": 3219626
+    },
+    "median": {
+      "seconds": 2.652371399999538,
+      "rows": 1828418
+    },
+    "completed": {
+      "seconds": 135.78860150000037,
+      "rows": 41780488
+    }
+  },
+  "jit_warmup_seconds": 0.4159239000000525,
+  "filter_seconds": 1.7437161000007109,
+  "event_counts": {
+    "raw": [
+      24004247,
+      21875584
+    ],
+    "filtered": [
+      7156577,
+      4627359
+    ]
+  }
+}

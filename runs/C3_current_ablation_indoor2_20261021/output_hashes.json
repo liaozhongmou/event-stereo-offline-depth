@@ -1,0 +1,26 @@
+{
+  "consistent_fixed50.npz": {
+    "bytes": 22175412,
+    "sha256": "d6abc77715fcec1069b77bc27f41539162c06869403d547d144ad851b2b94c95"
+  },
+  "consistent_fixed_lif.npz": {
+    "bytes": 80863248,
+    "sha256": "cc98842877676b964d6d1bc950e40652576ab4f2763e32d9008a31523c805927"
+  },
+  "consistent_no_row.npz": {
+    "bytes": 38202115,
+    "sha256": "8b3c9ab37be76e1c5abcd32780f1346d539d126fbea510fcffa4a5a948b316ff"
+  },
+  "consistent_ols.npz": {
+    "bytes": 34636822,
+    "sha256": "273342b0094af3ef81016ce3e2f67b9087dba11a4e8261dce2832a3abe1a21ef"
+  },
+  "contract.json": {
+    "bytes": 1466,
+    "sha256": "4366493847b38eb558077c4f6349d2a44d41f334411d6a41b8b3d3c86101d342"
+  },
+  "inference.json": {
+    "bytes": 355,
+    "sha256": "3c474ce2c188cdb5a452a32f437e9821ef9469ebd85ae3b65ba4f15a55ce05ef"
+  }
+}

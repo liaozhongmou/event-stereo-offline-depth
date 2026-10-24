@@ -1,0 +1,38 @@
+{
+  "interval": [
+    49599.200431,
+    49611.101164
+  ],
+  "variants": {
+    "consistent": {
+      "rows": 12243114,
+      "seconds": 401.3704210999995
+    },
+    "bounded_legacy_time": {
+      "rows": 11623533,
+      "seconds": 520.3550893000001
+    },
+    "nearest50": {
+      "rows": 44149299,
+      "seconds": 106.37719110000035
+    },
+    "nearest5": {
+      "rows": 39444742,
+      "seconds": 91.61241830000017
+    },
+    "completed": {
+      "rows": 85500340
+    }
+  },
+  "events": {
+    "raw": [
+      123504949,
+      114176294
+    ],
+    "filtered": [
+      50079923,
+      47395769
+    ]
+  },
+  "download_manifest_sha256": "29f1e272d24c1a83f39ded70472b6295098aa2cf33e0352668b23bd9b9387c6c"
+}

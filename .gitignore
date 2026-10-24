@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Benchmark inputs are not distributed with the code
+datasets/
+indoor*_data/
+
+# Local LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc

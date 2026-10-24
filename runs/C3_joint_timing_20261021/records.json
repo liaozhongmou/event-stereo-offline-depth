@@ -1,0 +1,257 @@
+[
+  {
+    "mode": "matcher",
+    "seconds": 20.015857000002143,
+    "peak_rss_mib": 690.37890625,
+    "rss_samples": 641,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "e312145638ee6fe963da1e6f78f037870b1346377412340af4a53ecb61e7a273"
+  },
+  {
+    "mode": "median",
+    "seconds": 17.836137099999178,
+    "peak_rss_mib": 691.16796875,
+    "rss_samples": 572,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "c43a12167d6622ab3954a509b4d5e752e3ed020c436b8b697fdc0716a137f385"
+  },
+  {
+    "mode": "completed",
+    "seconds": 102.51697029999923,
+    "peak_rss_mib": 1344.7265625,
+    "rss_samples": 3282,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 8799682,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "3e117af84f4bc2e137a8b1f016defee7f373fa82f307cbdc71d375702f8dc2f2"
+  },
+  {
+    "mode": "matcher",
+    "seconds": 17.818721600000572,
+    "peak_rss_mib": 677.48828125,
+    "rss_samples": 570,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "e312145638ee6fe963da1e6f78f037870b1346377412340af4a53ecb61e7a273"
+  },
+  {
+    "mode": "median",
+    "seconds": 17.817918500000815,
+    "peak_rss_mib": 677.46484375,
+    "rss_samples": 571,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "c43a12167d6622ab3954a509b4d5e752e3ed020c436b8b697fdc0716a137f385"
+  },
+  {
+    "mode": "completed",
+    "seconds": 107.50572699999975,
+    "peak_rss_mib": 1362.4453125,
+    "rss_samples": 3442,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 8799682,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "3e117af84f4bc2e137a8b1f016defee7f373fa82f307cbdc71d375702f8dc2f2"
+  },
+  {
+    "mode": "matcher",
+    "seconds": 19.254124299997784,
+    "peak_rss_mib": 678.40625,
+    "rss_samples": 618,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "e312145638ee6fe963da1e6f78f037870b1346377412340af4a53ecb61e7a273"
+  },
+  {
+    "mode": "median",
+    "seconds": 19.46199070000148,
+    "peak_rss_mib": 691.3359375,
+    "rss_samples": 625,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "c43a12167d6622ab3954a509b4d5e752e3ed020c436b8b697fdc0716a137f385"
+  },
+  {
+    "mode": "completed",
+    "seconds": 113.85926219999965,
+    "peak_rss_mib": 1365.86328125,
+    "rss_samples": 3646,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 8799682,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "3e117af84f4bc2e137a8b1f016defee7f373fa82f307cbdc71d375702f8dc2f2"
+  },
+  {
+    "mode": "matcher",
+    "seconds": 19.1790476999995,
+    "peak_rss_mib": 691.203125,
+    "rss_samples": 615,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "e312145638ee6fe963da1e6f78f037870b1346377412340af4a53ecb61e7a273"
+  },
+  {
+    "mode": "median",
+    "seconds": 19.651693600000726,
+    "peak_rss_mib": 681.85546875,
+    "rss_samples": 630,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "c43a12167d6622ab3954a509b4d5e752e3ed020c436b8b697fdc0716a137f385"
+  },
+  {
+    "mode": "completed",
+    "seconds": 126.35802199999671,
+    "peak_rss_mib": 1363.59375,
+    "rss_samples": 4055,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 8799682,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "3e117af84f4bc2e137a8b1f016defee7f373fa82f307cbdc71d375702f8dc2f2"
+  },
+  {
+    "mode": "matcher",
+    "seconds": 18.078034599999228,
+    "peak_rss_mib": 682.36328125,
+    "rss_samples": 582,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "e312145638ee6fe963da1e6f78f037870b1346377412340af4a53ecb61e7a273"
+  },
+  {
+    "mode": "median",
+    "seconds": 18.000103999998828,
+    "peak_rss_mib": 677.2734375,
+    "rss_samples": 577,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 566963,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "c43a12167d6622ab3954a509b4d5e752e3ed020c436b8b697fdc0716a137f385"
+  },
+  {
+    "mode": "completed",
+    "seconds": 105.38003630000094,
+    "peak_rss_mib": 1359.0078125,
+    "rss_samples": 3377,
+    "scope": "load NPZ + LIF + CSR + matching + selected output mode + compressed write",
+    "excluded": "imports, JIT warm-up, SHA-256 and evaluation",
+    "rows": 8799682,
+    "thread_settings": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMBA_NUM_THREADS": "1"
+    },
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "output_sha256": "3e117af84f4bc2e137a8b1f016defee7f373fa82f307cbdc71d375702f8dc2f2"
+  }
+]

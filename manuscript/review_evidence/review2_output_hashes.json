@@ -1,0 +1,46 @@
+{
+  "archive_replay_equality.json": {
+    "bytes": 111,
+    "sha256": "5ecf3584291ff4c8d65530862515d0e8975d28c0f8fc769bf6895f465aa46453"
+  },
+  "consistent_basis_replay.txt": {
+    "bytes": 2318,
+    "sha256": "187701c2a92700e21f58288f4166fdc9b948ef130951ed9c99a705d43489c1c2"
+  },
+  "contract.json": {
+    "bytes": 618,
+    "sha256": "9a6d09cea71f5cc657b5d361b7adeab4c2e203b2b60b35f10d12813abf233d41"
+  },
+  "evaluator_equality.json": {
+    "bytes": 212,
+    "sha256": "9c285f1a62ebe01c97930006d433ea3862b19cb731c545ad33ac0680b1f8ef93"
+  },
+  "legacy_replay.txt": {
+    "bytes": 2315,
+    "sha256": "117d9a45073082fce01502f5f27fd553790db17a9b1a1b47473834fa6ab32de9"
+  },
+  "metrics.json": {
+    "bytes": 13048,
+    "sha256": "107de67262f249f857ab3706bc9282715ca97b11d8ffababae8fcbac22b651dc"
+  },
+  "paired_temporal_disparities.npz": {
+    "bytes": 3517837,
+    "sha256": "1c7caba9fd2d59ff44188215045efcac842e2d5b0bd4d0bf94d4f1628b46d668"
+  },
+  "source_masks.pdf": {
+    "bytes": 19139,
+    "sha256": "06ba4b2abfd5fab61cb6db223780743e05f6f5ef114e7b5daa9aed0ac9d10070"
+  },
+  "source_masks.png": {
+    "bytes": 33327,
+    "sha256": "63af63e63df05b8b9b86d7e24416bbe8fb9d0817f293d8ccc0d49c2751a0634c"
+  },
+  "stage_maps.pdf": {
+    "bytes": 138846,
+    "sha256": "7666915409a78b59a81b18d8f08b90daa56fcb1a5b962f084eb0cc55265b9971"
+  },
+  "stage_maps.png": {
+    "bytes": 140530,
+    "sha256": "5635f925ed0105f455e1a6ad81d82fe3ee3b0c8f9ad4d3d602a1826516a5e496"
+  }
+}
